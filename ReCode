@@ -18,13 +18,13 @@ local ConfigManager = Compkiller:ConfigManager({
 });
 
 -- Loading UI (Icon <string> , Duration <number>) --
-Compkiller:Loader("rbxassetid://136434862563883" , 2.5).yield();
+Compkiller:Loader("rbxassetid://126181424605789" , 2.5).yield();
 
 -- Creating Window --
 local Window = Compkiller.new({
 	Name = "Rebellion",
 	Keybind = "LeftAlt",
-	Logo = "rbxassetid://136434862563883",
+	Logo = "rbxassetid://126181424605789",
 	Scale = Compkiller.Scale.Window, -- Leave blank if you want automatic scale [PC, Mobile].
 	TextSize = 15,
 });
@@ -35,9 +35,9 @@ Notifier.new({
 	Title = "Notification",
 	Content = "Thank you for use this script!",
 	Duration = 10,
-	Icon = "rbxassetid://136434862563883"
+	Icon = "rbxassetid://126181424605789"
 });
--- 136434862563883
+-- 126181424605789
 -- Watermark --
 local Watermark = Window:Watermark();
 
@@ -473,7 +473,7 @@ Settings:AddButton({
 			Title = "Notification",
 			Content = "Copied Them Color to your clipboard",
 			Duration = 5,
-			Icon = "rbxassetid://136434862563883"
+			Icon = "rbxassetid://126181424605789"
 		});
 	end,
 });
